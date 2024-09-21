@@ -1,0 +1,71 @@
+/* Base container for the calculator */
+.container {
+  width: 360px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Styling for the heading of the calculator */
+.calculator-heading {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container for input fields */
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 10px;
+}
+
+/* Input fields styling */
+.input-box input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Container for buttons */
+.btn-section {
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Output and error messages section */
+.output-section p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Error message styling */
+.error  p{
+  color: red;
+}
+.success p{
+  color: green;
+}
